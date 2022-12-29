@@ -11,7 +11,8 @@ meadow = ('клевер', 'одуванчик', 'ромашка', 'клевер'
 # garden_set =
 # meadow_set =
 # TODO здесь ваш код
-
+garden_set=set(garden)
+meadow_set=set(meadow)
 # выведите на консоль все виды цветов
 # TODO здесь ваш код
 

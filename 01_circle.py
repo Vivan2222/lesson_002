@@ -28,7 +28,7 @@ point = (23, 34)
 #       квадратный корень - это возведение в степень 0.5
 #       операции сравнения дают булевы константы True и False
 # TODO здесь ваш код
-point_radius=((point[0])**2+(point[1])**2)**.5<radius
+point_radius=((0-point[0])**2+(0-point[1])**2)**.5<radius
 print(radius>point_radius)
 
 
@@ -38,7 +38,7 @@ point_2 = (30, 30)
 # Если точка point_2 лежит внутри круга (radius = 42), то выведите на консоль True,
 # Или False, если точка лежит вовне круга.
 # TODO здесь ваш код
-point_2radius=((point_2[0])**2+(point_2[1])**2)**.5
+point_2radius=((0-point_2[0])**2+(0-point_2[1])**2)**.5
 print(radius>point_2radius)
 
 
