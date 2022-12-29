@@ -50,6 +50,20 @@ print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, '�
 # Это задание на ручное вычисление - что бы потом понять как работают циклы и насколько с ними проще жить.
 
 # TODO здесь ваш код
+table=tuple((store[goods['Стол']]))
+quantity_table=(table[0]['quantity']+ table[1]['quantity'])
+price_table=(table[0]['price']+ table[1]['price'])
+print('Стол -', quantity_table, 'шт стоимость', price_table, 'руб')
+sofa=tuple((store[goods['Диван']]))
+quantity_sofa=(sofa[0]['quantity']+ sofa[1]['quantity'])
+price_sofa=(sofa[0]['price']+ sofa[1]['price'])
+print('Диван -', quantity_sofa, 'шт стоимость', price_sofa, 'руб')
+chair= tuple((store[goods['Стул']]))
+quantity_chair= (chair[0]['quantity'] + chair[1]['quantity']+ chair[2]['quantity'])
+price_chair=(chair[0]['price']+chair[1]['price']+ chair[2]['price'])
+print('Стул -', quantity_chair, 'шт стоимость', price_chair, 'руб')
+
+
 
 ##########################################################################################
 # ВНИМАНИЕ! После того как __ВСЯ__ домашняя работа сделана и запушена на сервер,         #
