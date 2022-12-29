@@ -41,7 +41,7 @@ point_2 = (30, 30)
 point_2radius=((0-point_2[0])**2+(0-point_2[1])**2)**.5
 print(radius>point_2radius)
 
-d
+
 # Пример вывода на консоль:
 #
 # 77777.7777
